@@ -48,15 +48,15 @@ body {
 }
 
 a {
-  color: #52D681;
+  color: #0625BC;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #3329FB;
+  color: #0625BC;
   outline: none;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 p {
@@ -72,17 +72,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #52D681;
+  background: #0625BC;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #52D681;
+  background: #0625BC;
 }
 
 ::selection {
   color: #fff;
-  background: #52D681;
+  background: #0625BC;
 }
 
 .gtco-container {
@@ -168,7 +168,7 @@ line-height: 6em;
     font-weight: bold;
 }
 .gtco-nav ul li a:hover, .gtco-nav ul li a:focus, .gtco-nav ul li a:active {
-  color: #3329FB;
+  color: #0625BC;
     text-decoration: underline;
     font-weight: bold;
 }
@@ -258,7 +258,7 @@ line-height: 6em;
   color: #000;
 }
 .gtco-nav ul li.btn-cta a {
-  color: #52D681;
+  color: #0625BC;
 }
 .gtco-nav ul li.btn-cta a span {
   background: #fff;
@@ -325,7 +325,7 @@ line-height: 6em;
   margin-bottom: 0 !important;
 }
 .gtco-cover a {
-  color: #52D681;
+  color: #0625BC;
 }
 .gtco-cover a:hover {
   color: white;
@@ -469,7 +469,7 @@ line-height: 6em;
   float: left;
 }
 #gtco-footer a:hover {
-  color: #3329FB !important;
+  color: #0625BC !important;
     text-decoration: underline;
 }
 #gtco-footer .gtco-cta {
@@ -521,7 +521,7 @@ line-height: 6em;
 }
 
 #gtco-footer .gtco-footer-link .gtco-list-link li a:hover {
-    color: #3329FB;
+    color: #0625BC;
 } 
 #gtco-footer .gtco-footer-subscribe {
   padding-left: 30px;
@@ -567,10 +567,20 @@ line-height: 6em;
   background-repeat: no-repeat;
 }
 
+/*hide dot*/
+.owl-carousel #mainpage_threeboxes.owl-dot {
+    background: white;
+    display: none;
+}
+
 .gtco-item h2 a {
-    border-bottom: 2px solid #3329FB;
-    color: #3329FB;
+    border-bottom: 2px solid #0625BC;
+    color: #0625BC;
     font-weight: 700;
+}
+
+.gtco-item h2 a:hover {
+    text-decoration: none;
 }
 .gtco-staff, .gtco-item {
   margin-bottom: 4em;
@@ -591,7 +601,7 @@ line-height: 6em;
   margin-bottom: 5px;
 }
 .gtco-staff h2 a, .gtco-item h2 a {
-  color: #3329FB !important;
+  color: #0625BC !important;
 }
 .gtco-staff p, .gtco-item p {
   margin-bottom: 30px;
@@ -619,7 +629,7 @@ line-height: 6em;
 }
 .gtco-staff .fh5co-social li a, .gtco-item .fh5co-social li a {
   font-size: 20px;
-  color: #52d681;
+  color: #0625BC;
 }
 .gtco-staff .fh5co-social li a:hover, .gtco-item .fh5co-social li a:hover {
   color: #000;
@@ -645,7 +655,7 @@ line-height: 6em;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  color: #52D681;
+  color: #0625BC;
 }
 .gtco-news ul li a .post-date {
   text-transform: uppercase;
@@ -685,7 +695,7 @@ line-height: 6em;
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #52D681;
+  color: #0625BC;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -837,7 +847,7 @@ form label {
 #gtco-counter .counter {
   font-size: 50px;
   margin-bottom: 10px;
-  color: #52D681;
+  color: #0625BC;
   font-weight: 100;
   display: block;
 }
@@ -897,7 +907,7 @@ form label {
   font-size: 25px;
   margin-bottom: 10px;
   line-height: 1.5;
-  color: #3329FB;
+  color: #0625BC;
   font-weight: 700;
     font-family: "Montserrat", sans-serif;
 }
@@ -1189,9 +1199,9 @@ blockquote p > cite {
 }
 
 .btn-primary {
-  background: #52D681;
+  background: #0625BC;
   color: #fff;
-  border: 2px solid #52D681 !important;
+  border: 2px solid #0625BC !important;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #67db90 !important;
@@ -1199,11 +1209,11 @@ blockquote p > cite {
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #52D681;
-  border: 2px solid #52D681;
+  color: #0625BC;
+  border: 2px solid #0625BC;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #52D681;
+  background: #0625BC;
   color: #fff;
 }
 
@@ -1304,23 +1314,23 @@ blockquote p > cite {
 }
 
 .btn-special {
-  background: #52D681;
+  background: #0625BC;
   color: #2f9051;
-  border: 2px solid #52D681;
+  border: 2px solid #0625BC;
 }
 .btn-special:hover, .btn-special:focus, .btn-special:active {
   color: #fff;
-  background: #52D681;
-  border-color: #52D681;
+  background: #0625BC;
+  border-color: #0625BC;
 }
 .btn-special.btn-outline {
   color: #fff;
-  border: 2px solid #52D681;
+  border: 2px solid #0625BC;
 }
 .btn-special.btn-outline:hover, .btn-special.btn-outline:focus, .btn-special.btn-outline:active {
   background: #fff;
   color: #2f9051;
-  border: 2px solid #52D681;
+  border: 2px solid #0625BC;
 }
 
 .btn-outline {
@@ -1373,7 +1383,7 @@ blockquote p > cite {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #52D681;
+  border-color: #0625BC;
 }
 
 .row-pb-md {
@@ -1426,7 +1436,7 @@ blockquote p > cite {
   margin-left: 0px;
 }
 .gtco-nav .gtco-contact ul li a i {
-  color: #52D681;
+  color: #0625BC;
 }
 .gtco-nav .gtco-contact ul li a:hover i {
   color: #fff;
@@ -1677,4 +1687,24 @@ blockquote p > cite {
     font-size: 20px;
 }
 
+.col-md-4 h2 a {
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+    padding-bottom: 100px;
+    text-underline-position: under
+}
+
+.col-md-4 p {
+    color: rgb(51, 51, 51);
+}
+
+#second_row {
+    padding-top: 20px;
+border-top: 1px solid #0625BC;
+}
+
+.col-md-4 .gtco-list-link #twitter img {
+    margin-top: 30px;
+}
 /*# sourceMappingURL=style.css.map */
