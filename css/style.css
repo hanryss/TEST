@@ -914,7 +914,11 @@ form label {
 .gtco-heading p {
   font-size: 15px;
   line-height: 1.7;
-  color: #4f4f4f;
+  color: rgb(51, 51, 51);
+}
+
+.col-md-7 p {
+    color: rgb(51, 51, 51);
 }
 
 blockquote {
@@ -1706,5 +1710,9 @@ border-top: 1px solid #0625BC;
 
 .col-md-4 .gtco-list-link #twitter img {
     margin-top: 30px;
+}
+
+#indentation {
+    margin-left: 30px;
 }
 /*# sourceMappingURL=style.css.map */
